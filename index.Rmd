@@ -1,5 +1,5 @@
 ---
-title: "Mapa de infraestructura verde en La Unión"
+title: "Mapa de infraestructura verde del cantón de La Unión"
 output: 
   flexdashboard::flex_dashboard:
     orientation: rows
@@ -80,7 +80,7 @@ pal <- colorFactor(
 Row
 -----------------------------------------------------------------------
 
-### Datos para descarga: [Capa de infraestructura verde en La Unión](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/launion/IV_LA_UNION.TIF)
+### Datos para descarga: [Capa geoespacial de infraestructura verde del cantón de La Unión](https://raw.githubusercontent.com/atlas-servicios-ecosistemicos-gam/datos/master/infraestructura-verde/launion/IV_LA_UNION.TIF)
 ```{r}
 
 leaflet() %>%
